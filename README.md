@@ -1,5 +1,5 @@
-# dvc-project-template
-DVC project template
+# DVC-CNN-TF
+DVC project for DL using TF
 
 ## STEPS -
 
