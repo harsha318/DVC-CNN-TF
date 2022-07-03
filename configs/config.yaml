@@ -16,5 +16,5 @@ source_data_dirs:
   - ../outside_data/dog
 
 local_data_dirs:
-  - data/cat
-  - data/dog
+  - data1/cat
+  - data1/dog

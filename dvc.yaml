@@ -18,5 +18,5 @@
      - src/utils/common.py
      - configs/config.yaml
      outs:
-     - data/cat
-     - data/dog
+     - data1/cat
+     - data1/dog

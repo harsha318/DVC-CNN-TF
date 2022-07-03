@@ -57,3 +57,33 @@ NameError: name 'copy_files' is not defined
 [2022-07-03 17:11:02,272: INFO: common]: all the files has been copied from ../outside_data/dog to data/dog
 [2022-07-03 17:11:02,275: INFO: stage_01_get_data]: >>>>> stage get_data completed!<<<<<
 
+[2022-07-03 18:09:12,818: INFO: stage_01_get_data]: 
+********************
+[2022-07-03 18:09:12,818: INFO: stage_01_get_data]: >>>>> stage get_data started <<<<<
+[2022-07-03 18:09:12,818: INFO: common]: content from configs/config.yaml read successfully!!
+[2022-07-03 18:09:12,857: INFO: common]: Directory is created at data1/cat
+[2022-07-03 18:09:13,260: INFO: common]: all the files has been copied from ../outside_data/cat to data1/cat
+[2022-07-03 18:09:13,262: INFO: common]: Directory is created at data1/dog
+[2022-07-03 18:09:13,548: INFO: common]: all the files has been copied from ../outside_data/dog to data1/dog
+[2022-07-03 18:09:13,550: INFO: stage_01_get_data]: >>>>> stage get_data completed!<<<<<
+
+[2022-07-03 18:09:41,060: INFO: stage_01_get_data]: 
+********************
+[2022-07-03 18:09:41,060: INFO: stage_01_get_data]: >>>>> stage get_data started <<<<<
+[2022-07-03 18:09:41,063: INFO: common]: content from configs/config.yaml read successfully!!
+[2022-07-03 18:09:41,085: INFO: common]: Directory is created at data1/cat
+[2022-07-03 18:09:41,366: INFO: common]: all the files has been copied from ../outside_data/cat to data1/cat
+[2022-07-03 18:09:41,367: INFO: common]: Directory is created at data1/dog
+[2022-07-03 18:09:41,722: INFO: common]: all the files has been copied from ../outside_data/dog to data1/dog
+[2022-07-03 18:09:41,725: INFO: stage_01_get_data]: >>>>> stage get_data completed!<<<<<
+
+[2022-07-03 18:10:12,931: INFO: stage_01_get_data]: 
+********************
+[2022-07-03 18:10:12,931: INFO: stage_01_get_data]: >>>>> stage get_data started <<<<<
+[2022-07-03 18:10:12,947: INFO: common]: content from configs/config.yaml read successfully!!
+[2022-07-03 18:10:12,978: INFO: common]: Directory is created at data1/cat
+[2022-07-03 18:10:13,334: INFO: common]: all the files has been copied from ../outside_data/cat to data1/cat
+[2022-07-03 18:10:13,335: INFO: common]: Directory is created at data1/dog
+[2022-07-03 18:10:13,598: INFO: common]: all the files has been copied from ../outside_data/dog to data1/dog
+[2022-07-03 18:10:13,601: INFO: stage_01_get_data]: >>>>> stage get_data completed!<<<<<
+
