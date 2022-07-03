@@ -1,0 +1,59 @@
+[2022-07-03 16:16:13,988: INFO: stage_01_get_data]: 
+********************
+[2022-07-03 16:16:13,988: INFO: stage_01_get_data]: >>>>> stage get_data started <<<<<
+[2022-07-03 16:16:13,988: ERROR: stage_01_get_data]: name 'main' is not defined
+Traceback (most recent call last):
+  File "src/stage_01_get_data.py", line 48, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+NameError: name 'main' is not defined
+[2022-07-03 16:17:20,201: INFO: stage_01_get_data]: 
+********************
+[2022-07-03 16:17:20,201: INFO: stage_01_get_data]: >>>>> stage get_data started <<<<<
+[2022-07-03 16:17:20,201: ERROR: stage_01_get_data]: get_data() got an unexpected keyword argument 'params_path'
+Traceback (most recent call last):
+  File "src/stage_01_get_data.py", line 48, in <module>
+    get_data(config_path=parsed_args.config, params_path=parsed_args.params)
+TypeError: get_data() got an unexpected keyword argument 'params_path'
+[2022-07-03 16:18:46,152: INFO: stage_01_get_data]: 
+********************
+[2022-07-03 16:18:46,168: INFO: stage_01_get_data]: >>>>> stage get_data started <<<<<
+[2022-07-03 16:18:46,168: INFO: common]: content from configs/config.yaml read successfully!!
+[2022-07-03 16:18:46,168: ERROR: stage_01_get_data]: 'source_data_dirs'
+Traceback (most recent call last):
+  File "src/stage_01_get_data.py", line 48, in <module>
+    get_data(config_path=parsed_args.config)
+  File "src/stage_01_get_data.py", line 26, in get_data
+    source_data_dirs = config["source_data_dirs"]
+KeyError: 'source_data_dirs'
+[2022-07-03 16:20:35,084: INFO: stage_01_get_data]: 
+********************
+[2022-07-03 16:20:35,084: INFO: stage_01_get_data]: >>>>> stage get_data started <<<<<
+[2022-07-03 16:20:35,099: INFO: common]: content from configs/config.yaml read successfully!!
+[2022-07-03 16:20:35,207: INFO: common]: Directory is created at data/cat
+[2022-07-03 16:20:35,222: ERROR: stage_01_get_data]: name 'copy_files' is not defined
+Traceback (most recent call last):
+  File "src/stage_01_get_data.py", line 48, in <module>
+    get_data(config_path=parsed_args.config)
+  File "src/stage_01_get_data.py", line 37, in get_data
+    copy_files(source_data_dir, local_data_dir)
+NameError: name 'copy_files' is not defined
+[2022-07-03 16:22:57,690: INFO: stage_01_get_data]: 
+********************
+[2022-07-03 16:22:57,690: INFO: stage_01_get_data]: >>>>> stage get_data started <<<<<
+[2022-07-03 16:22:57,694: INFO: common]: content from configs/config.yaml read successfully!!
+[2022-07-03 16:22:57,736: INFO: common]: Directory is created at data/cat
+[2022-07-03 16:27:12,165: INFO: common]: all the files has been copied from ../outside_data/cat to data/cat
+[2022-07-03 16:27:12,168: INFO: common]: Directory is created at data/dog
+[2022-07-03 16:30:21,569: INFO: common]: all the files has been copied from ../outside_data/dog to data/dog
+[2022-07-03 16:30:21,572: INFO: stage_01_get_data]: >>>>> stage get_data completed!<<<<<
+
+[2022-07-03 17:09:44,003: INFO: stage_01_get_data]: 
+********************
+[2022-07-03 17:09:44,003: INFO: stage_01_get_data]: >>>>> stage get_data started <<<<<
+[2022-07-03 17:09:44,003: INFO: common]: content from configs/config.yaml read successfully!!
+[2022-07-03 17:09:44,043: INFO: common]: Directory is created at data/cat
+[2022-07-03 17:10:23,412: INFO: common]: all the files has been copied from ../outside_data/cat to data/cat
+[2022-07-03 17:10:23,418: INFO: common]: Directory is created at data/dog
+[2022-07-03 17:11:02,272: INFO: common]: all the files has been copied from ../outside_data/dog to data/dog
+[2022-07-03 17:11:02,275: INFO: stage_01_get_data]: >>>>> stage get_data completed!<<<<<
+
